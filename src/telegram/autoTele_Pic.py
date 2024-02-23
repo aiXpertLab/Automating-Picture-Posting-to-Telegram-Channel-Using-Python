@@ -5,8 +5,8 @@ from utils.utilities import RandomTitleGenerator
 BOT_TOKEN = os.environ.get("TELE_TOKEN")
 bot = telebot.TeleBot(BOT_TOKEN)
 
-# channel_name = "-1002126729483"   #asiagirl
-channel_name = "-4061783014"        #ycc
+channel_name = "-1002126729483"   #asiagirl
+# channel_name = "-4061783014"        #ycc
 
 caption = RandomTitleGenerator("./src/telegram/resources/captions.txt")
 
